@@ -1,4 +1,33 @@
 .rowbg123{
 position: relative;
 top: -1450px;
+display: block;
+background: rgb(31, 31, 31);
+height: 202px;
+width: 1550px;
+}
+.Row1{
+    position: relative;
+    color: white;    
+    font-weight: 700;
+    font-size: 36px;
+    left: 55px;
+
+}
+.Row2{
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    left: 55px;
+    top: -27px;
+
+}
+.Row3{
+    position: relative;
+    color: white;    
+    font-weight: 700;
+    font-size: 36px;
+    top: -156px;
+  left: 379px;
 }
