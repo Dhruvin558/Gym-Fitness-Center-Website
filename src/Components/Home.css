@@ -1,0 +1,60 @@
+.home_0 {
+  position: relative;
+  left: 5%;
+}
+
+.home_p1 {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 64px;
+  opacity: 90%;
+}
+.home_p2 {
+  font-weight: 300;
+  font-size: 25px;
+  opacity: 40%;
+}
+.play_B{
+    margin-left: 15px;
+}
+.blackpart {
+  position: relative;
+  display: block;
+  background-color: rgb(31, 31, 31);
+  width: 441px;
+  height: 855px;
+  left: 71.5%;
+  top: -640px;
+}
+.BJoin {
+  position: relative;
+  left: 56%;
+  top: 35px;
+}
+.bbimage{
+  position: relative;
+  top: -1390px;
+  width: 671.67px;
+  height: 650px;
+  left: 861px;
+}
+.fican{
+  position: relative;
+  top: 40px;
+  
+}
+.Iicon{
+  position: relative;
+  top: 42px;
+  margin-left: 2%;
+}
+.lIcon{
+  position: relative;
+  top: 39px;
+  margin-left: 2%;
+}
+.GIcon{
+  position: relative;
+  top: 40px;
+  margin-left: 2%;
+}
