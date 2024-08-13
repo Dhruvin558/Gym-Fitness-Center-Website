@@ -1,5 +1,6 @@
 import React from "react";
 import "./Row.css";
+import About from "./About";
 
 function Row() {
   return (
@@ -28,6 +29,7 @@ function Row() {
           We ensure your progress satisfaction
         </p>
       </div>
+      <About />
     </>
   );
 }

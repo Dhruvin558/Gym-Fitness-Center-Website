@@ -6,6 +6,7 @@ import { LuFacebook } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { LuGithub } from "react-icons/lu";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -68,6 +69,8 @@ const Home = () => {
           <img src="/image/bodypic.png" className="bbimage" />
         </i>
       </div>{" "}
+  
+
     </>
   );
 };

@@ -1,0 +1,155 @@
+.About {
+    width: 1550px;
+    height: 850px;
+    background-color: aqua;
+}
+
+.About_hading {
+    position: relative;
+    font-weight: 700;
+    font-size: 63px;
+    margin-left: 34%;
+    top: 96px;
+    opacity: 90%;
+}
+
+.About_text {
+    position: relative;
+    top: 105px;
+    margin-left: 12%;
+    opacity: 40%;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.About_Fbox {
+    width: 925px;
+    height: 450px;
+    /* background-color: antiquewhite; */
+    margin-left: 50px;
+    position: relative;
+    top: 120px;
+}
+
+.About_Fbox_1 {
+    position: inline-block;
+}
+
+.About_boxer {
+    width: 450px;
+    height: 180px;
+    /* background-color: aliceblue; */
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.Boxing_icon {
+    position: relative;
+    top: 65px;
+
+}
+
+.Boxing_Hading {
+    position: relative;
+    top: -15px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 90%;
+
+}
+
+.Boxing_text {
+    margin-left: 49px;
+    position: relative;
+    top: -28px;
+    opacity: 40%;
+}
+
+.Money {
+    width: 450px;
+    height: 180px;
+    /* background-color: aliceblue; */
+    left: 10%;
+    position: relative;
+    top: 9%;
+}
+
+.Money_icon {
+    color: black;
+    top: 38px;
+    position: relative;
+}
+
+.Money_Hading {
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 90%;
+    position: relative;
+    top: -28px;
+    left: 46px;
+}
+
+.Money_text {
+    opacity: 40%;
+    position: relative;
+    top: -16%;
+    left: 10%;
+}
+
+.Facility {
+    width: 450px;
+    height: 180px;
+    /* background-color: aliceblue; */
+    margin-left: 46%;
+    margin-top: -33%;
+  }
+.Facility_icon{
+    /* color: white; */
+  /* background: #000; */
+  border-radius: 58%;
+  width: 45px;
+  height: inherit;
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.Facility_Hading{
+    margin-left: 22%;
+  margin-top: -16%;
+  font-weight: 600;
+    font-size: 25px;
+    opacity: 90%;
+}
+.Facility_text{
+    opacity: 40%;
+    margin-left: 22%;
+    margin-top: -4%;
+}
+.Time{
+    width: 450px;
+    height: 180px;
+    /* background-color: white; */
+    margin-left: 46%;
+    margin-top: -5%;
+}
+.Time_icon{
+    margin-left: 7%;
+  margin-top: 8.5%;
+}
+.Time_hading{
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 90%;
+    margin-left: 22%;
+    position: relative;
+  top: -37%;
+}
+.Time_text{
+    opacity: 40%;
+    margin-left: 22%;
+    margin-top: -12%;
+}
+.img{
+    
+}
