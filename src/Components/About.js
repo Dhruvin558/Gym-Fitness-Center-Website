@@ -75,6 +75,8 @@ function About() {
         </div>
         <div className="img">
           <img src="/image/About1.png" alt="image" className="image1" />
+          <img src="/image/About2.png" alt="image" className="image2" />
+          <img src="/image/About3.png" alt="image" className="image3" />
         </div>
       </div>
     </>

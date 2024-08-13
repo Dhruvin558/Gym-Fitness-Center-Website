@@ -1,7 +1,7 @@
 .About {
     width: 1550px;
     height: 850px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .About_hading {
@@ -151,12 +151,29 @@
     margin-top: -12%;
 }
 .img{
-
+    width: 693px;
+    height: 500px;
+    /* background-color: aliceblue; */
+    margin-top: -20%;
+    margin-left: 54%;
 }
 .image1{
-    width: 264.52px;
-    height: 180px;
+    width: 351.52px;
+  height: 283px;
+  margin-left: 8%;
+  margin-top: 4%;
 }
 .image2{
-    
+    width: 351.52px;
+    height: 283px;
+    margin-left: 8%;
+    margin-top: -21%;
+
+}
+.image3{
+    width: 323.49px;
+  height: 511px;
+  margin-top: -42%;
+  margin-left: -7%;
+
 }

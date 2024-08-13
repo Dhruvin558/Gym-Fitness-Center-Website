@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import Navbar1 from './Components/Navbar1';
 import Row from './Components/Row';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Trainers from './Components/Trainers';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   {/* <Route path='/' element={<Row />} /> */}
   </Routes>
   <Row />
+  <Trainers />
   
   </Router>
   

@@ -1,0 +1,44 @@
+.Trainer {
+    width: 1550px;
+    height: 1408px;
+    background-color: antiquewhite;
+}
+
+.Hading {
+    width: 40%;
+    border: 1px solid;
+    margin: auto;
+    /* background-color: aliceblue; */
+
+}
+
+.Hading_text {
+    display: block;
+    margin: 50px auto;
+
+    /* position: relative; */
+    /* left: 42%; */
+    /* top: 50px; */
+    text-align: center;
+}
+
+.Hading_b {
+    /* margin: auto; */
+
+    /* position: relative; */
+    /* top: 36px;     */
+}
+
+.Hading_p {
+    display: block;
+    margin-left: auto;
+    margin-top: -32px;
+    margin-right: auto;
+
+    text-align: center;
+    /* position: relative; */
+    /* left: 34%; */
+    /* top: 37%; */
+    /* margin-top: 59px; */
+
+}
