@@ -1,3 +1,8 @@
+.home{
+  /* position: inline-block */
+  /* background-color: aqua; */
+  height: 639px;
+}
 .home_0 {
   position: relative;
   left: 5%;
