@@ -65,17 +65,20 @@
     position: absolute;
     right: 89px;
 }
-.Abc{
+
+.Abc {
     width: 50px;
     height: 500px;
 }
-.Abc1{
+
+.Abc1 {
     width: 150px;
     height: 100px;
-transition-duration: 2s;
+    transition-duration: 2s;
 }
-.Abc1:hover{
+
+.Abc1:hover {
     width: 40px;
     opacity: 50%;
-    
+
 }

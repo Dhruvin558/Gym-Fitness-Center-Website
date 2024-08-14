@@ -162,18 +162,34 @@
   height: 283px;
   margin-left: 8%;
   margin-top: 4%;
+  transition-duration: 2s;
+}
+.image1:hover{
+    width: 366px;
+    height: 299px;
 }
 .image2{
     width: 351.52px;
     height: 283px;
     margin-left: 8%;
     margin-top: -21%;
+    transition-duration: 2s;
 
+
+}
+.image2:hover{
+    width: 362px;
+    height: 292px;
 }
 .image3{
     width: 323.49px;
   height: 511px;
   margin-top: -42%;
   margin-left: -7%;
+  transition-duration: 2s;
 
+}
+.image3:hover{
+    width: 334px;
+    height: 519px;
 }
