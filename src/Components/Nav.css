@@ -5,29 +5,43 @@
     left: 2%;
     top: 15px;
 }
+.button_of_navbar{
+    display: block ;
+    width: 500px;
+    border: 3px solid yellow;
+    margin: -35px auto;
+    padding-left: 5px;
+}
 .Bhome{
-    margin-left: 20%;
+    /* margin-left: 20%; */
     font-weight: 400;
     font-size: 24px;
-    
+    /* padding-left: 5px; */
 }
 .BAbout{
     font-weight: 400;
     font-size: 24px;
-    margin-left: 2%;
+    padding-left: 7px;
+    /* margin-left: 2%; */
 }
 .BTrainers{
     font-weight: 400;
     font-size: 24px;
-    margin-left: 2%;
+    padding-left: 7px;
+
+    /* margin-left: 2%; */
 }
 .BReview{
     font-weight: 400;
     font-size: 24px;
-    margin-left: 2%;
+    padding-left: 7px;
+
+    /* margin-left: 2%; */
 }
 .Bplans{
     font-weight: 400;
     font-size: 24px;
-    margin-left: 2%;
+    padding-left: 7px;
+
+    /* margin-left: 2%; */
 }

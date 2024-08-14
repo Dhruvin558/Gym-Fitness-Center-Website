@@ -7,6 +7,7 @@ const Navbar1 = () => {
     <>
       <div className="navbar">
         <img src="/image/Vector.png" alt="a" className="navpic" />
+        <b className="button_of_navbar">
         <n className="Bhome">
           <Button variant="text" sx={{ color: "black", fontSize: "20px"  }}>
           Home
@@ -33,6 +34,7 @@ const Navbar1 = () => {
             Plans{" "}
           </Button>
         </n>
+        </b>
       </div>
     </>
   );

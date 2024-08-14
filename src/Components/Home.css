@@ -27,13 +27,16 @@
     margin-left: 15px;
 }
 .blackpart {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
+  right: 0px;
+  top: -16px;
   display: block;
   background-color: rgb(31, 31, 31);
   width: 441px;
   height: 855px;
-  left: 71.5%;
-  top: -640px;
+  /* left: 71.5%; */
+  /* top: -640px; */
 }
 .BJoin {
   position: relative;
@@ -41,11 +44,13 @@
   top: 35px;
 }
 .bbimage{
-  position: relative;
-  top: -1390px;
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  /* top: -1390px; */
   width: 671.67px;
   height: 650px;
-  left: 861px;
+  /* left: 861px; */
 }
 .fican{
   position: relative;
