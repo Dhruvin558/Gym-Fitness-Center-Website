@@ -1,5 +1,6 @@
 import React from "react";
 import "./Trainers.css";
+import Abc from "./Abc";
 
 function Trainers() {
   return (
@@ -14,7 +15,8 @@ function Trainers() {
             <br />
             incididunt ut labore et dolore magna a
           </p>
-        </p>{" "}
+        </p>
+        <Abc/>
       </div>
     </>
   );

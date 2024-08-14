@@ -1,3 +1,7 @@
+.navbar {
+    z-index: 1;
+}
+
 .navpic {
     position: relative;
     width: 112px;
@@ -5,47 +9,73 @@
     left: 2%;
     top: 15px;
 }
-.button_of_navbar{
-    border: 3px solid yellow;
-    width: 600px;    
-    
+
+.button_of_navbar {
+    /* border: 3px solid yellow; */
+    width: 600px;
+
     display: flex;
     justify-self: center;
     justify-content: center;
     justify-content: space-between;
     margin: -35px auto;
-    
+
 }
-.Bhome{
+
+.Bhome {
     /* margin-left: 20%; */
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 5px; */
 }
-.BAbout{
+
+.BAbout {
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 7px; */
     /* margin-left: 2%; */
 }
-.BTrainers{
+
+.BTrainers {
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 7px; */
 
     /* margin-left: 2%; */
 }
-.BReview{
+
+.BReview {
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 7px; */
 
     /* margin-left: 2%; */
 }
-.Bplans{
+
+.Bplans {
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 7px; */
 
     /* margin-left: 2%; */
+}
+
+.BJoin {
+    display: flex;
+    position: absolute;
+    right: 89px;
+}
+.Abc{
+    width: 50px;
+    height: 500px;
+}
+.Abc1{
+    width: 150px;
+    height: 100px;
+transition-duration: 2s;
+}
+.Abc1:hover{
+    width: 40px;
+    opacity: 50%;
+    
 }

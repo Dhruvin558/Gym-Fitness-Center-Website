@@ -55,14 +55,14 @@ const Home = () => {
           </ico>
         </div>
         <p className="blackpart">
-          <n className="BJoin">
+          {/* <n className="BJoin">
             <Button
               variant="contained"
               sx={{ backgroundColor: "black", color: "white", border: "2px" }}
             >
               Join NOW
             </Button>
-          </n>
+          </n> */}
           .{" "}
         </p>
         <i>

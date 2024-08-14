@@ -35,21 +35,18 @@
   background-color: rgb(31, 31, 31);
   width: 441px;
   height: 855px;
+  z-index: -1;
   /* left: 71.5%; */
   /* top: -640px; */
 }
-.BJoin {
-  position: relative;
-  left: 56%;
-  top: 35px;
-}
+
 .bbimage{
   position: absolute;
-  top: 25%;
+  top: 84px;
   right: 0%;
-  /* top: -1390px; */
   width: 671.67px;
   height: 650px;
+  /* top: -1390px; */
   /* left: 861px; */
 }
 .fican{

@@ -34,6 +34,14 @@ const Navbar1 = () => {
             Plans{" "}
           </Button>
         </n>
+        <n className="BJoin">
+            <Button
+              variant="contained"
+              sx={{ backgroundColor: "black", color: "white", border: "2px" }}
+            >
+              Join NOW
+            </Button>
+          </n>
         </b>
       </div>
     </>
