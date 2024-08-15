@@ -19,8 +19,8 @@ function About() {
             nisi ut aliquip ex ea commodo consequat.{" "}
           </p>
         </up>
-        <div className="About_Fbox">
-          <div className="About_boxer">
+        <p className="About_Fbox">
+          <p className="About_boxer">
             <p>
               <GiBoxingGloveSurprise size={"40px"} className="Boxing_icon" />
               <p className="Boxing_Hading">Trainer Qualifications</p>
@@ -32,8 +32,8 @@ function About() {
                 eiusmod tempor incididunt ut labore
               </p>
             </p>
-          </div>
-          <div className="Money">
+          </p>
+          <p className="Money">
             <p>
               <TbMoneybag size={"40px"} className="Money_icon" />
             </p>
@@ -45,8 +45,8 @@ function About() {
               <br />
               eiusmod tempor incididunt ut labore
             </p>
-          </div>
-          <div className="Facility">
+          </p>
+          <p className="Facility">
             <p>
               <CgGym size={"40px"} className="Facility_icon" />
             </p>
@@ -58,8 +58,8 @@ function About() {
               <br />
               eiusmod tempor incididunt ut labore
             </p>
-          </div>
-          <div className="Time">
+          </p>
+          <p className="Time">
             <p>
               <TbClockCheck size={"40px"} className="Time_icon" />
             </p>
@@ -71,13 +71,13 @@ function About() {
               <br />
               eiusmod tempor incididunt ut labore
             </p>
-          </div>
-        </div>
-        <div className="img">
+          </p>
+        </p>
+        <p className="img">
           <img src="/image/About1.png" alt="image" className="image1" />
           <img src="/image/About2.png" alt="image" className="image2" />
           <img src="/image/About3.png" alt="image" className="image3" />
-        </div>
+        </p>
       </div>
     </>
   );

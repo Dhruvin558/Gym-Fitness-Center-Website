@@ -186,7 +186,8 @@
   height: 511px;
   margin-top: -42%;
   margin-left: -7%;
-  transition-duration: 2s;
+  transition: 2s ease-in-out  ;
+
 
 }
 .image3:hover{

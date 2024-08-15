@@ -1,6 +1,11 @@
 .navbar {
     z-index: 1;
-}
+    width: 100vw;
+    border: 3px solid yellow;
+    height: 71px;
+    /* display: contents; */
+    display: grid;
+    grid-template-columns: 34fr 69fr 15fr;}
 
 .navpic {
     position: relative;
@@ -11,14 +16,15 @@
 }
 
 .button_of_navbar {
+    margin: 18px;
     /* border: 3px solid yellow; */
-    width: 600px;
+    /* width: 600px;
 
     display: flex;
     justify-self: center;
     justify-content: center;
     justify-content: space-between;
-    margin: -35px auto;
+    margin: -35px auto; */
 
 }
 
@@ -33,7 +39,7 @@
     font-weight: 400;
     font-size: 24px;
     /* padding-left: 7px; */
-    /* margin-left: 2%; */
+    margin-left: 2%;
 }
 
 .BTrainers {
@@ -41,7 +47,7 @@
     font-size: 24px;
     /* padding-left: 7px; */
 
-    /* margin-left: 2%; */
+    margin-left: 2%;
 }
 
 .BReview {
@@ -49,7 +55,7 @@
     font-size: 24px;
     /* padding-left: 7px; */
 
-    /* margin-left: 2%; */
+    margin-left: 2%;
 }
 
 .Bplans {
@@ -57,13 +63,34 @@
     font-size: 24px;
     /* padding-left: 7px; */
 
-    /* margin-left: 2%; */
+    margin-left: 2%;
 }
 
 .BJoin {
-    display: flex;
+    /* display: flex;
     position: absolute;
-    right: 89px;
+    right: 89px; */
+    /* display: flex;
+    padding-right: 58px;
+    height: 34px;
+
+    justify-content: right; */
+}
+
+.B_Join {
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: 13px;    border: black;
+}
+.B_Join:hover{
+    background-color: rgb(20, 19, 19);
 }
 
 .Abc {
