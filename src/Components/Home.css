@@ -1,12 +1,37 @@
-.home{
-  /* position: inline-block */
-  /* background-color: aqua; */
-  height: 599px;
+.home {
+
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+  'home image image image';
+  height: 658px;
+  /* width: 1533px; */
 }
-.home_0 {
+
+
+#home1 {
+  /* background-color: yellow; */
+  grid-area: home;
+  
+}
+
+#image1 {
+  /* background-color: red; */
+  grid-area: image;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   position: relative;
-  left: 5%;
+
 }
+.Home_All{
+  
+  /* background-color: yellow; */
+  /* border: 3px solid black; */
+  padding: 12px 23px;
+  /* justify-self: center; */
+}
+
 
 .home_p1 {
   font-family: Helvetica;
@@ -16,6 +41,7 @@
   position: relative;
   top: 80px;
 }
+
 .home_p2 {
   font-weight: 300;
   font-size: 25px;
@@ -23,49 +49,58 @@
   position: relative;
   top: 40px;
 }
-.play_B{
-    margin-left: 15px;
-}
-.blackpart {
-  /* position: relative; */
-  position: absolute;
-  right: 0px;
-  top: -16px;
-  display: block;
-  background-color: rgb(31, 31, 31);
-  width: 441px;
-  height: 855px;
-  z-index: -1;
-  /* left: 71.5%; */
-  /* top: -640px; */
+
+.play_B {
+  margin-left: 15px;
 }
 
-.bbimage{
-  position: absolute;
-  top: 84px;
-  right: 0%;
-  width: 671.67px;
-  height: 650px;
-  /* top: -1390px; */
-  /* left: 861px; */
-}
-.fican{
+.fican {
   position: relative;
   top: 40px;
-  
+
 }
-.Iicon{
+
+.Iicon {
   position: relative;
   top: 42px;
   margin-left: 2%;
 }
-.lIcon{
+
+.lIcon {
   position: relative;
   top: 39px;
   margin-left: 2%;
 }
-.GIcon{
+
+.GIcon {
   position: relative;
   top: 40px;
   margin-left: 2%;
+}
+
+
+.blackpart {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: lightblue;
+  position: absolute;
+  z-index: 1;
+  top: -83px;
+  left: 147px;
+  width: 100vw;
+  /* width: 472px; */
+  height: 729px;
+}
+
+.bbimage {
+  grid-column: 1;
+  grid-row: 1;
+  width: 671.67px;
+  height: 650px;
+  
+  grid-area: img;
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: -44px;
 }

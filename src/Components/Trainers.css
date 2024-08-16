@@ -1,14 +1,15 @@
 .Trainer {
-    width: 1550px;
+    /* width: 1550px; */
+    /* margin-top: 50px; */
+    /* margin-top: 50px; */
     height: 1408px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .Hading {
-    width: 40%;
-    border: 1px solid;
-    margin: auto;
-    /* background-color: aliceblue; */
+    padding-top: 20px;
+    /* width: 40%; */
+    /* border: 1px solid; */
 
 }
 
@@ -41,4 +42,137 @@
     /* top: 37%; */
     /* margin-top: 59px; */
 
+}
+
+/* -------------------------------------------------- */
+.image-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns of equal width */
+    /* gap: 10px; Spacing between grid items */
+    /* background: #539a6c; */
+    margin-left: 151px;
+    margin-right: 127px;
+}
+
+.image-container1 {
+    /* border: 2px solid rgb(255, 0, 0); */
+    position: relative;
+    height: 500px;
+    width: 418px;
+    /* Set your desired height */
+    overflow: hidden;
+}
+
+.image-container2 {
+    /* border: 2px solid rgb(255, 0, 0); */
+    position: relative;
+    height: 482px;
+    width: 418px;
+    /* Set your desired height */
+    overflow: hidden;
+}
+
+.image-container3 {
+    /* border: 2px solid rgb(255, 0, 0); */
+    position: relative;
+    height: 482px;
+    width: 450px;
+       /* Set your desired height */
+    overflow: hidden;
+}
+
+.image-container1 img {
+    height: 546px;
+    width: 484px;
+    /* object-fit: cover; Ensure the image covers the container */
+    transition: 0.5s ease;
+}
+
+.image-container2 img {
+    height: 546px;
+    width: 484px;
+    /* object-fit: cover; Ensure the image covers the container */
+    transition: 0.5s ease;
+}
+
+.image-container3 img {
+    height: 546px;
+    width: 484px;
+    /* object-fit: cover; Ensure the image covers the container */
+    transition: 0.5s ease;
+}
+
+.image-container1 .overlay-text {
+    position: absolute;
+    top: 26%;
+  left: 44%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.5s ease;
+}
+
+.image-container2 .overlay-text {
+    position: absolute;
+    top: 26%;
+  left: 44%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.5s ease;
+}
+
+.image-container3 .overlay-text {
+    position: absolute;
+    top: 26%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.5s ease;
+}
+
+.image-container1:hover img {
+    filter: brightness(50%);
+    /* Darkens the image on hover */
+}
+
+.image-container2:hover img {
+    filter: brightness(50%);
+    /* Darkens the image on hover */
+}
+
+.image-container3:hover img {
+    filter: brightness(50%);
+    /* Darkens the image on hover */
+}
+
+.image-container1:hover .overlay-text {
+    opacity: 1;
+    /* Makes the text visible on hover */
+}
+
+.image-container2:hover .overlay-text {
+    opacity: 1;
+    /* Makes the text visible on hover */
+}
+
+.image-container3:hover .overlay-text {
+    opacity: 1;
+    /* Makes the text visible on hover */
+}
+
+#img1 {
+    /* padding-left: 50px; */
 }

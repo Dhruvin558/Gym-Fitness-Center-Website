@@ -1,7 +1,7 @@
 .navbar {
-    z-index: 1;
+    z-index: 5;
     width: 100vw;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     height: 71px;
     /* display: contents; */
     display: grid;
@@ -78,6 +78,7 @@
 }
 
 .B_Join {
+    z-index: 5;
     background-color: black;
     color: white;
     border-radius: 9px;
@@ -93,19 +94,10 @@
     background-color: rgb(20, 19, 19);
 }
 
-.Abc {
-    width: 50px;
-    height: 500px;
-}
 
-.Abc1 {
-    width: 150px;
-    height: 100px;
-    transition-duration: 2s;
-}
 
-.Abc1:hover {
-    width: 40px;
-    opacity: 50%;
 
-}
+
+@media (min-width: 1200px) {
+  }
+  
