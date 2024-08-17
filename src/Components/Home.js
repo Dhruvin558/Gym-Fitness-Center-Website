@@ -1,6 +1,6 @@
 import { Button, Icon } from "@mui/material";
 import React from "react";
-import "./Home.css";
+import style  from"./Home.css";
 import PlayCircleOutlineOutlinedIcon from "@mui/icons-material/PlayCircleOutlineOutlined";
 import { LuFacebook } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";

@@ -84,7 +84,7 @@
     position: relative;
     height: 400px;
     width: 333px;
-       /* Set your desired height */
+    /* Set your desired height */
     overflow: hidden;
     border-radius: 33px;
     box-shadow: 44.1px 59.1px 176px -39px;
@@ -114,14 +114,14 @@
 
 .image-container1 .overlay-text {
     position: absolute;
-  top: 35%;
-  left: 49%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.5s ease;
+    top: 35%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
     /* Hidden by default */
     /* border: 2px solid;  width: 197px; */
 }
@@ -136,8 +136,8 @@
     text-align: center;
     opacity: 0;
     transition: opacity 0.5s ease;
-      /* Hidden by default */
-      /* border: 2px solid;  width: 197px; */
+    /* Hidden by default */
+    /* border: 2px solid;  width: 197px; */
 }
 
 .image-container3 .overlay-text {
@@ -150,15 +150,16 @@
     text-align: center;
     opacity: 0;
     transition: opacity 0.5s ease;
-      /* Hidden by default */
-      /* border: 2px solid;  width: 197px; */
+    /* Hidden by default */
+    /* border: 2px solid;  width: 197px; */
 }
 
 .image-container1:hover img {
     filter: brightness(30%);
     /* Darkens the image on hover */
-    
+
 }
+
 .image-container2:hover img {
     filter: brightness(30%);
     /* Darkens the image on hover */
@@ -192,61 +193,98 @@
 
 /* --------Coache---------------------------------------------------------- */
 
-.Coache{
+.Coache {
     margin-top: 100px;
     display: grid;
     /* background-color: aquamarine; */
     grid-gap: 1rem;
-    grid-template-areas: 
-    'img text text'
+    grid-template-areas:
+        'img img text text text'
     ;
 
 }
-.item{
+
+.item {
     /* background-color:rgb(164, 164, 255); */
     margin-top: 100px;
     /* margin-left: 0px; */
     grid-area: img;
     display: grid;
-    border: 5px solid yellow;
-    grid-gap: 10rem;
-    grid-template-areas: 
-    'first Second ';
-    justify-items: right;
+    /* border: 5px solid yellow; */
+    grid-gap: 237px;
+    grid-template-areas:
+        'first Second ';
+    justify-items: center;
 }
-.text{
+
+.text {
     margin-top: 100px;
-    border: 5px solid rgb(255, 0, 0);
+    /* border: 5px solid rgb(255, 0, 0); */
     grid-area: text;
 }
 
-.img_1{
+.img_1 {
     grid-area: first;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 200px;
     height: 350px;
+    border-radius: 24px;
+    
     /* margin-left: 90px; */
     /* padding-left: 50px; */
-    
+    box-shadow: 19.1px 26.1px 107px -39px;
+
 }
-.img_2{grid-area: Second;
-    border: 2px solid rgb(0, 0, 0);
+
+.img_2 {
+    grid-area: Second;
+    /* border: 2px solid rgb(0, 0, 0); */
     width: 350px;
     height: 350px;
+    border-radius: 24px;
+
     /* margin-left: 50px; */
     /* padding-left: 50px; */
+    box-shadow: 19.1px 26.1px 107px -39px;
 
 
 
 }
-.hading_Coache{
-font-size: 63px;
-font-weight: bold;
-opacity: 90%;
-position: absolute;
-top: -10px;
+
+.hading_Coache {
+    font-size: 63px;
+    font-weight: bold;
+    opacity: 90%;
+    position: relative;
+    top: -56px;
+    left: 31px;
 }
 
+.test_coach {
+    font-size: 24px;
+    position: relative;
+    top: -59px;
+    left: 31px;
+    opacity: 50%;
 
+}
 
+.p {
+    font-size: 24px;
+    position: relative;
+    top: -59px;
+    left: 31px;
+    font-weight: bold;
 
+}
+.b_coache{
+    position: relative;
+    top: -59px;
+    left: 31px;
+    background: #000;
+    color: white;
+    width:190px ;
+    height: 55px;
+    border-radius: 20px;
+font-size: 20px;
+}

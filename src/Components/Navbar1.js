@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+import  style  from "./Nav.css";
 import { Button, Link } from "@mui/material";
 
 const Navbar1 = () => {

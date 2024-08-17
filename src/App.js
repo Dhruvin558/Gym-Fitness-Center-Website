@@ -5,6 +5,7 @@ import Row from './Components/Row';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Trainers from './Components/Trainers';
 import About from './Components/About';
+import Plan from './Components/Plan';
 
 
 
@@ -22,7 +23,7 @@ function App() {
   <Row />
   <About />
   <Trainers />
-  
+  <Plan />
   </Router>
   
    </>
