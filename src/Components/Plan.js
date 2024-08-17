@@ -1,12 +1,16 @@
-import React from 'react'
-import  style  from "./Plan.css";
+import React from "react";
+import "./Plan.css";
 function Plan() {
   return (
-    <div className='Plan'>
-      <p className='item' id='first'>Pricing plan</p>
-      <p className='item' id='second'>Pricing plan</p>
+    <div className="Plan">
+      <p className="item_Plan" id="first">
+        Pricing plan
+      </p>
+      <p className="item_Plan" id="second">
+        JOIN TODAY
+      </p>
     </div>
-  )
+  );
 }
 
-export default Plan
+export default Plan;

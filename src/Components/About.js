@@ -1,5 +1,5 @@
 import React from "react";
-import  style  from"./About.css";
+import "./About.css";
 import { GiBoxingGloveSurprise } from "react-icons/gi";
 import { TbMoneybag } from "react-icons/tb";
 import { CgGym } from "react-icons/cg";

@@ -1,6 +1,21 @@
-.Plan{}
-.item{
-    border: 2px solid;
+.Plan {
+    margin-top: 130px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-gap: 1rem;
+
 }
-.first{}
-.second{}
+
+.item_Plan {
+    border: 2px solid;
+
+}
+
+#first {   
+     font-size: 24px;
+}
+
+#second {
+    font-size: 63px;
+    font-weight: bold;
+}
