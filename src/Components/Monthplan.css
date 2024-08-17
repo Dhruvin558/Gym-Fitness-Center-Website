@@ -1,7 +1,7 @@
 .Monthplan {
     display: grid;
     grid-gap: 1rem;
-    /* margin-left: 100px; */
+    margin-top: 100px;
 grid-template-areas: 
     'first second third'
     ;
@@ -23,4 +23,76 @@ grid-area: second ;
 }
 #third_box{
 grid-area: third ;
+}
+
+
+.box_content{
+
+    /* justify-content: left; */
+    /* background-color: rgb(255, 128, 128); */
+}
+
+.p1{
+    padding-left: 30px;
+
+    /* padding-top: 10px; */
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 70%;
+
+
+}
+.p2{
+    padding-left: 30px;
+
+font-size: 48px;
+font-weight: 600;
+margin-top: 0px;
+opacity: 90%;
+
+}
+.p3{    padding-left: 30px;
+
+ 
+    position: relative;
+    top: -78px;
+  left: 76px;
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 90%;
+
+}
+.p4{    padding-left: 30px;
+
+    width: 358px;
+  top: -72px;
+  position: relative;
+  opacity: 50%;
+
+}
+.pp1{    padding-left: 30px;
+
+    position: relative;
+    top: -62px;
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.B_MP{
+    justify-content: center;
+    left: 14px;
+    position: relative;
+    top: -50px;
+    width: 370px;
+    height: 60px;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    background: #000;
+    border: #000;
+    border-radius: 15px;
+}
+.B_MP:hover{
+    cursor:pointer; 
+    background-color: rgb(73, 73, 73);
 }
