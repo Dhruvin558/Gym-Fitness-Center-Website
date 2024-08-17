@@ -1,8 +1,8 @@
 .Plan {
-    margin-top: 130px;
+    margin-top: 150px;
     background-color: antiquewhite;
-    display: grid;
-    grid-gap: 1rem;
+    /* display: grid; */
+
 
 }
 
@@ -11,11 +11,49 @@
 
 }
 
-#first {   
-     font-size: 24px;
+#first {
+    font-size: 24px;
 }
 
 #second {
     font-size: 63px;
     font-weight: bold;
+
+}
+
+.Button_BG {
+    position: relative;
+    top: -100px;
+    left: 83%;
+    background-color: #f0f0f0;
+    width: 220px;
+
+}
+
+.Button_1 {
+    position: relative;
+    width: 100px;
+    background-color: white;
+}
+
+#B_Monthly {
+
+
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    grid-area: first_f;
+
+}
+
+#B_Yearly {
+    left: 50px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    grid-area: second_b;
+
 }
