@@ -1,6 +1,7 @@
 import React from "react";
 import "./Trainers.css";
-import Abc from "./Abc";
+import Trainers_imag from "./Trainers_imag";
+import Trainers_Coache from "./Trainers_Coache";
 
 function Trainers() {
   return (
@@ -16,7 +17,9 @@ function Trainers() {
             incididunt ut labore et dolore magna a
           </p>
         </p>
-        <Abc/>
+        <Trainers_imag />
+        <br />
+        <Trainers_Coache />
       </div>
     </>
   );

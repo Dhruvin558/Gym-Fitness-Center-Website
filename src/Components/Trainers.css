@@ -2,7 +2,7 @@
     /* width: 1550px; */
     /* margin-top: 50px; */
     /* margin-top: 50px; */
-    height: 1408px;
+    /* height: 1408px; */
     /* background-color: antiquewhite; */
 }
 
@@ -44,7 +44,7 @@
 
 }
 
-/* -------------------------------------------------- */
+/* --------------Grid of image------------------------------------ */
 .image-grid {
     margin-top: 80px;
     display: grid;
@@ -53,108 +53,119 @@
     /* gap: 10px; Spacing between grid items */
     /* background: #539a6c; */
     margin-left: 151px;
-    margin-right: 127px;
+    margin-right: 17px;
 }
 
 .image-container1 {
     /* border: 2px solid rgb(255, 0, 0); */
     position: relative;
-    height: 500px;
-    width: 418px;
+    height: 400px;
+    width: 333px;
     /* Set your desired height */
     overflow: hidden;
+    border-radius: 33px;
+    box-shadow: 44.1px 59.1px 176px -39px;
 }
 
 .image-container2 {
     /* border: 2px solid rgb(255, 0, 0); */
     position: relative;
-    height: 482px;
-    width: 418px;
+    height: 400px;
+    width: 333px;
     /* Set your desired height */
     overflow: hidden;
+    border-radius: 33px;
+    box-shadow: 44.1px 59.1px 176px -39px;
+
 }
 
 .image-container3 {
     /* border: 2px solid rgb(255, 0, 0); */
     position: relative;
-    height: 482px;
-    width: 450px;
+    height: 400px;
+    width: 333px;
        /* Set your desired height */
     overflow: hidden;
+    border-radius: 33px;
+    box-shadow: 44.1px 59.1px 176px -39px;
+
 }
 
 .image-container1 img {
-    height: 546px;
-    width: 484px;
+    height: 400px;
+    width: 333px;
     /* object-fit: cover; Ensure the image covers the container */
     transition: 0.5s ease;
 }
 
 .image-container2 img {
-    height: 546px;
-    width: 484px;
+    height: 400px;
+    width: 333px;
     /* object-fit: cover; Ensure the image covers the container */
     transition: 0.5s ease;
 }
 
 .image-container3 img {
-    height: 546px;
-    width: 484px;
+    height: 400px;
+    width: 333px;
     /* object-fit: cover; Ensure the image covers the container */
     transition: 0.5s ease;
 }
 
 .image-container1 .overlay-text {
     position: absolute;
-    top: 26%;
-  left: 44%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    opacity: 0;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
     /* Hidden by default */
-    transition: opacity 0.5s ease;
+    /* border: 2px solid;  width: 197px; */
 }
 
 .image-container2 .overlay-text {
     position: absolute;
-    top: 26%;
-  left: 44%;
+    top: 35%;
+    left: 49%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
     text-align: center;
     opacity: 0;
-    /* Hidden by default */
     transition: opacity 0.5s ease;
+      /* Hidden by default */
+      /* border: 2px solid;  width: 197px; */
 }
 
 .image-container3 .overlay-text {
     position: absolute;
-    top: 26%;
-    left: 44%;
+    top: 35%;
+    left: 49%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
     text-align: center;
     opacity: 0;
-    /* Hidden by default */
     transition: opacity 0.5s ease;
+      /* Hidden by default */
+      /* border: 2px solid;  width: 197px; */
 }
 
 .image-container1:hover img {
-    filter: brightness(50%);
+    filter: brightness(30%);
     /* Darkens the image on hover */
+    
 }
-
 .image-container2:hover img {
-    filter: brightness(50%);
+    filter: brightness(30%);
     /* Darkens the image on hover */
 }
 
 .image-container3:hover img {
-    filter: brightness(50%);
+    filter: brightness(30%);
     /* Darkens the image on hover */
 }
 
@@ -176,3 +187,66 @@
 #img1 {
     /* padding-left: 50px; */
 }
+
+
+
+/* --------Coache---------------------------------------------------------- */
+
+.Coache{
+    margin-top: 100px;
+    display: grid;
+    /* background-color: aquamarine; */
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'img text text'
+    ;
+
+}
+.item{
+    /* background-color:rgb(164, 164, 255); */
+    margin-top: 100px;
+    /* margin-left: 0px; */
+    grid-area: img;
+    display: grid;
+    border: 5px solid yellow;
+    grid-gap: 10rem;
+    grid-template-areas: 
+    'first Second ';
+    justify-items: right;
+}
+.text{
+    margin-top: 100px;
+    border: 5px solid rgb(255, 0, 0);
+    grid-area: text;
+}
+
+.img_1{
+    grid-area: first;
+    border: 2px solid blue;
+    width: 200px;
+    height: 350px;
+    /* margin-left: 90px; */
+    /* padding-left: 50px; */
+    
+}
+.img_2{grid-area: Second;
+    border: 2px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 350px;
+    /* margin-left: 50px; */
+    /* padding-left: 50px; */
+
+
+
+}
+.hading_Coache{
+font-size: 63px;
+font-weight: bold;
+opacity: 90%;
+position: absolute;
+top: -10px;
+}
+
+
+
+

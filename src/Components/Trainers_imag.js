@@ -1,7 +1,7 @@
 import React from "react";
 import "./Trainers";
 
-function Abc() {
+function Trainers_imag() {
   return (
     <div className="image-grid">
       <div id="img1" class="image-container1">
@@ -37,4 +37,4 @@ function Abc() {
   );
 }
 
-export default Abc;
+export default Trainers_imag;
