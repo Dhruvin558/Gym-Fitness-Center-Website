@@ -2,14 +2,14 @@ import React from "react";
 import "./Monthplan.css";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 
-function Monthplan() {
+function Yearlyplan() {
   return (
-    <div className="Monthplan">
+<div className="Monthplan">
       <div className="box" id="first_box">
         <div className="box_content">
           <p className="p1">Beginner Plan</p>
-          <p className="p2">$05</p>
-          <p className="p3">/Month</p>
+          <p className="p2">$60</p>
+          <p className="p3">/Year</p>
           <p className="p4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut{" "}
@@ -55,8 +55,8 @@ function Monthplan() {
         <p className="Sd">
       <div className="box_content">
           <p className="p1">Beginner Plan</p>
-          <p className="p2">$15</p>
-          <p className="p3">/Month</p>
+          <p className="p2">$180</p>
+          <p className="p3" style={{ position: 'relative', left: '98px' }}>/Year</p>
           <p className="p4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut{" "}
@@ -99,8 +99,8 @@ function Monthplan() {
       <div className="box" id="third_box">
       <div className="box_content">
           <p className="p1">Expert Plan</p>
-          <p className="p2">$20</p>
-          <p className="p3">/Month</p>
+          <p className="p2">$240</p>
+          <p className="p3" style={{ position: 'relative', left: '106px' }} >/Year</p>
           <p className="p4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut{" "}
@@ -126,7 +126,7 @@ function Monthplan() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Monthplan;
+export default Yearlyplan

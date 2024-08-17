@@ -1,5 +1,7 @@
 import React from "react";
 import "./Plan.css";
+import Monthplan from "./Monthplan";
+import Yearlyplan from "./Yearlyplan";
 function Plan() {
   return (
     <div className="Plan">
@@ -14,6 +16,8 @@ function Plan() {
       < button  className="Button_1" id="B_Monthly" >Monthly</button>< button   id="B_Yearly" >Yearly</button>
       </p>
       </p>
+      <Monthplan />
+      <Yearlyplan />
     </div>
   );
 }

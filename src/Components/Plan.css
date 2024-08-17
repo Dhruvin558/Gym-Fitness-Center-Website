@@ -7,8 +7,8 @@
 }
 
 .item_Plan {
-    border: 2px solid;
-
+    /* border: 2px solid; */
+margin-left: 60px;
 }
 
 #first {
@@ -16,6 +16,7 @@
 }
 
 #second {
+    margin-top: 0px;
     font-size: 63px;
     font-weight: bold;
 
@@ -27,13 +28,19 @@
     left: 83%;
     background-color: #f0f0f0;
     width: 220px;
-
+    border-radius: 15px;
 }
 
 .Button_1 {
     position: relative;
     width: 100px;
     background-color: white;
+    border: #f0f0f0;
+    
+}
+.Button_1:hover{
+    cursor:pointer; 
+    background-color: rgb(131, 131, 131);
 }
 
 #B_Monthly {
@@ -41,7 +48,7 @@
 
     width: 100px;
     height: 40px;
-    background-color: white;
+    background-color: #f0f0f0;
     border-radius: 15px;
     grid-area: first_f;
 
@@ -56,4 +63,8 @@
     border-radius: 15px;
     grid-area: second_b;
 
+}
+#B_Yearly:hover{
+    cursor:pointer; 
+    background-color:  rgb(68, 68, 68);
 }
