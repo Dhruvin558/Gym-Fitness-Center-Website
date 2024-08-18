@@ -2,14 +2,13 @@ import React from "react";
 import "./Joinp1.css";
 import { GiBiceps } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
-import { useDropzone } from 'react-dropzone';
-
+import { useDropzone } from "react-dropzone";
 
 function Joinp1() {
   const { getRootProps, getInputProps } = useDropzone({
-    onDrop: acceptedFiles => {
+    onDrop: (acceptedFiles) => {
       console.log(acceptedFiles);
-    }
+    },
   });
   return (
     <div className="JoinP">
@@ -28,20 +27,30 @@ function Joinp1() {
           <p className="Ellipse2">2</p>
           <p className="Line2"></p>
           <p className="Ellipse3">3</p>
-          </p>
-          <p className="allpyline">
+        </p>
+        <p className="allpyline">
           <p id="L1"> Basic Detail</p>
           <p id="L2"> Membership Detail</p>
           <p id="L3"> Payment</p>
         </p>
-        <p className="BasicDetails">
-        Basic Details
+        <p className="BasicDetails">Basic Details</p>
+        <input type="text" placeholder="Enter name" className="Rectangle1" />
+        <input
+          type="number"
+          placeholder="Enter phone no"
+          className="Rectangle2"
+        />
+        <input type="email" placeholder="Enter email" className="Rectangle3" />
+
+        <div className="Rectangle4" {...getRootProps()}>
+          <input {...getInputProps()} />
+        </div>
+        <p className="f_b">
+        <input type="email" placeholder="Enter email" className="Rectangle5" />
+        <input type="email" placeholder="Enter email" className="Rectangle6" />
+        <input type="email" placeholder="Enter email" className="Rectangle7" />
+        <input type="e  mail" placeholder="Enter email" className="Rectangle8" />
         </p>
-        <input type="text" placeholder="Enter name" className="Rectangle1"/>
-        <input type="number" placeholder="Enter phone no" className="Rectangle2"/>
-        <input type="email" placeholder="Enter email" className="Rectangle3"/>
-        
-        <input type="file" className="Rectangle4" />
       </div>
     </div>
   );
