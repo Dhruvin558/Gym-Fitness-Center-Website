@@ -2,8 +2,15 @@ import React from "react";
 import "./Joinp1.css";
 import { GiBiceps } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
+import { useDropzone } from 'react-dropzone';
+
 
 function Joinp1() {
+  const { getRootProps, getInputProps } = useDropzone({
+    onDrop: acceptedFiles => {
+      console.log(acceptedFiles);
+    }
+  });
   return (
     <div className="JoinP">
       <div className="box_1st">
@@ -33,6 +40,8 @@ function Joinp1() {
         <input type="text" placeholder="Enter name" className="Rectangle1"/>
         <input type="number" placeholder="Enter phone no" className="Rectangle2"/>
         <input type="email" placeholder="Enter email" className="Rectangle3"/>
+        
+        <input type="file" className="Rectangle4" />
       </div>
     </div>
   );
