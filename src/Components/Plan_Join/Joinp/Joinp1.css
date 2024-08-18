@@ -1,5 +1,6 @@
 .JoinP {
-
+z-index: 100;
+overflow: hidden;
     position: fixed;
     /* Ensures the element is fixed relative to the viewport */
     top: 0;

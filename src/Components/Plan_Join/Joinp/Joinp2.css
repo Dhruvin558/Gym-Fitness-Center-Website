@@ -1,0 +1,176 @@
+.JoinP {
+
+    position: fixed;
+    /* Ensures the element is fixed relative to the viewport */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Makes the element cover the entire screen */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Black background with 30% opacity */
+    backdrop-filter: blur(6px);
+    /* Applies a small blur to the background */
+    display: grid;
+    justify-content: center;
+
+}
+
+.box_1st {
+
+    width: 650px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.fist_line {
+    font-weight: bold;
+    position: relative;
+    left: 51px;
+    font-size: 22px;
+    margin: 33px;
+    top: -25px;
+
+}
+
+.bse {
+    top: 49px;
+    left: 20px;
+    position: relative;
+    background: #000;
+    color: white;
+    border-radius: 50px;
+}
+
+.co {
+    margin-left: 515px;
+    position: relative;
+    top: -30px;
+    border: none;
+    background: none;
+}
+
+.co:hover {
+    cursor: pointer;
+
+}
+
+.line {
+    margin-left: 19px;
+    width: 613px;
+    height: 1.5px;
+    background: #000;
+    position: relative;
+    top: -49px;
+    opacity: 5%;
+}
+
+.Ellipse1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 76px;
+    top: -53px;
+    color: white;
+    background: #000000;
+    border-radius: 26px;
+    justify-content: center;
+    display: grid;
+    font-weight: bold;
+}
+
+.Line1 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 129px;
+    top: -80px;
+    opacity: 0.2;
+    border: 1px solid #000000;
+}
+
+.Ellipse2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 308px;
+    top: -110px;
+    color: white;
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 26px;
+    justify-content: center;
+    display: grid;
+    font-weight: bold;
+}
+
+.Line2 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 376px;
+    top: -138px;
+    opacity: 0.2;
+    border: 1px solid #000000;
+}
+
+.Ellipse3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 563px;
+    top: -167px;
+    color: white;
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 26px;
+    justify-content: center;
+    display: grid;
+    font-weight: bold;
+}
+
+.allpyline {
+    position: relative;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        'first mid last';
+    top: -190px;
+    left: 69px;
+    opacity: 64%;
+    font-size: 8px;
+}
+
+#L1 {
+    grid-area: first;
+    opacity: 100%;
+}
+
+#L2 {
+
+    grid-area: mid;
+    padding-left: 38px;
+}
+
+#L3 {
+    grid-area: last;
+    padding-left: 63px;
+}
+
+.BasicDetails {
+    position: absolute;
+    width: 124px;
+    height: 27px;
+    left: 477px;
+    top: 209px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+
+}

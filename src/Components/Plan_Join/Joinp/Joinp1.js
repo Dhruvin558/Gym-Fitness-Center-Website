@@ -4,7 +4,7 @@ import { GiBiceps } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { useDropzone } from "react-dropzone";
 
-function Joinp1() {
+function Joinp1({onClose}) {
   const { getRootProps, getInputProps } = useDropzone({
     onDrop: (acceptedFiles) => {
       console.log(acceptedFiles);
@@ -16,7 +16,7 @@ function Joinp1() {
         <GiBiceps size={"49px"} className="bse" />
         <p className="fist_line">
           Join us Now!!
-          <button className="co">
+          <button className="co" onClick={onClose}>
             <IoCloseSharp size={"29px"} />
           </button>
         </p>
@@ -46,10 +46,22 @@ function Joinp1() {
           <input {...getInputProps()} />
         </div>
         <p className="f_b">
-        <input type="text" placeholder="Gender " className="Rectangle5" />
-        <input type="number" placeholder="Enter age " className="Rectangle6" />
-        <input type="text" placeholder="Enter height" className="Rectangle7" />
-        <input type="number" placeholder=" Enter weight" className="Rectangle8" />
+          <input type="text" placeholder="Gender " className="Rectangle5" />
+          <input
+            type="number"
+            placeholder="Enter age "
+            className="Rectangle6"
+          />
+          <input
+            type="text"
+            placeholder="Enter height"
+            className="Rectangle7"
+          />
+          <input
+            type="number"
+            placeholder=" Enter weight"
+            className="Rectangle8"
+          />
         </p>
         <button className="F_Bu">Next</button>
       </div>
