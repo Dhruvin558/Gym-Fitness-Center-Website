@@ -261,15 +261,18 @@
 
 .f_b {
     display: grid;
-    grid-gap: 14px;
+    grid-gap: 14px 0px;
     grid-template-areas:
-        'ff ss tt fo';
-
-}
+  'ff ss tt fo';
+    position: relative;
+    top: -210px;
+    padding-left: 20px;
+  /* padding-right: 23px; */
+  }
 
 .Rectangle5 {
     /* position: relative; */
-    width: 155px;
+    width: 143px;
     height: 50px;
     /* left: 20px; */
     /* top: -16px; */
@@ -282,7 +285,7 @@
 
 .Rectangle6 {
     /* position: relative; */
-    width: 125px;
+    width: 109px;
     height: 50px;
     /* left: 20px; */
     /* top: -16px; */
@@ -296,7 +299,7 @@
 
 .Rectangle7 {
     /* position: relative; */
-    width: 144px;
+    width: 129px;
     height: 50px;
     /* left: 20px; */
     /* top: -16px; */
@@ -310,7 +313,7 @@
 
 .Rectangle8 {
     /* position: relative; */
-    width: 146px;
+    width: 131px;
     height: 50px;
     /* left: 20px; */
     /* top: -16px; */
@@ -320,4 +323,25 @@
     font-size: 20px;
     grid-area: fo;
 
+}
+.F_Bu
+
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 30px;
+gap: 10px;
+
+position: absolute;
+width: 605px;
+height: 75px;
+left: calc(50% - 605px/2 - 0.5px);
+top: 677px;
+color: white;
+background: #1F1F1F;
+border-radius: 15px;
+font-size: 25px;
+font-weight: bold;
+top: 594px;
 }

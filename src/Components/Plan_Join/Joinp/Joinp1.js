@@ -46,11 +46,12 @@ function Joinp1() {
           <input {...getInputProps()} />
         </div>
         <p className="f_b">
-        <input type="email" placeholder="Enter email" className="Rectangle5" />
-        <input type="email" placeholder="Enter email" className="Rectangle6" />
-        <input type="email" placeholder="Enter email" className="Rectangle7" />
-        <input type="e  mail" placeholder="Enter email" className="Rectangle8" />
+        <input type="text" placeholder="Gender " className="Rectangle5" />
+        <input type="number" placeholder="Enter age " className="Rectangle6" />
+        <input type="text" placeholder="Enter height" className="Rectangle7" />
+        <input type="number" placeholder=" Enter weight" className="Rectangle8" />
         </p>
+        <button className="F_Bu">Next</button>
       </div>
     </div>
   );
