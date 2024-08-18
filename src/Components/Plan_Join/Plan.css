@@ -1,6 +1,7 @@
 .Plan {
     margin-top: 150px;
-    background-color: antiquewhite;
+    /* padding-top: 50px; */
+    background-color: rgb(255, 255, 255);
     /* display: grid; */
 
 
@@ -9,6 +10,7 @@
 .item_Plan {
     /* border: 2px solid; */
 margin-left: 60px;
+margin-bottom: -13px;
 }
 
 #first {
