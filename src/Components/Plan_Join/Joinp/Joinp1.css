@@ -61,16 +61,16 @@
     width: 613px;
     height: 1.5px;
     background: #000;
-position: relative;
-top: -49px;
-opacity: 5%;
+    position: relative;
+    top: -49px;
+    opacity: 5%;
 }
-.Ellipse1 {
 
+.Ellipse1 {
     position: relative;
     width: 24px;
     height: 24px;
-    left: 90px;
+    left: 76px;
     top: -53px;
     color: white;
     background: #000000;
@@ -78,26 +78,136 @@ opacity: 5%;
     justify-content: center;
     display: grid;
     font-weight: bold;
-  }
-.Line1{
-
-position: absolute;
-width: 150px;
-height: 0px;
-left: 588px;
-top: 146.5px;
-opacity: 0.2;
-border: 1px solid #000000;
 }
 
-.Ellipse2
-{
-position: relative;
-width: 24px;
-height: 24px;
-left: 20px;
-top: 0px;
+.Line1 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 129px;
+    top: -80px;
+    opacity: 0.2;
+    border: 1px solid #000000;
+}
 
-background: #000000;
-opacity: 0.2;
+.Ellipse2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 308px;
+    top: -110px;
+    color: white;
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 26px;
+    justify-content: center;
+    display: grid;
+    font-weight: bold;
+}
+
+.Line2 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 376px;
+    top: -138px;
+    opacity: 0.2;
+    border: 1px solid #000000;
+}
+
+.Ellipse3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 563px;
+    top: -167px;
+    color: white;
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 26px;
+    justify-content: center;
+    display: grid;
+    font-weight: bold;
+}
+
+.allpyline {
+    position: relative;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        'first mid last';
+    top: -190px;
+    left: 69px;
+    opacity: 64%;
+    font-size: 8px;
+}
+
+#L1 {
+    grid-area: first;
+    opacity: 100%;
+}
+
+#L2 {
+
+    grid-area: mid;
+    padding-left: 38px;
+}
+
+#L3 {
+    grid-area: last;
+    padding-left: 63px;
+}
+
+.BasicDetails {
+    position: absolute;
+    width: 124px;
+    height: 27px;
+    left: 477px;
+    top: 209px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.Rectangle1 {
+
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 29px;
+    top: -104px;
+    background: #000000;
+    opacity: 0.07;
+    border-radius: 15px;
+
+}
+
+.Rectangle2 {
+
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: -278px;
+    top: -32px;
+    background: #000000;
+    opacity: 0.07;
+    border-radius: 15px;
+
+}
+
+.Rectangle3 {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 29px;
+    top: -16px;
+    background: #000000;
+    opacity: 0.07;
+    border-radius: 15px;
 }
