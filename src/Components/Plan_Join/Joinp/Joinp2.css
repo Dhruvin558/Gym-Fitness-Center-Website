@@ -1,4 +1,4 @@
-.F_P_ {
+.JoinP2 {
 
     position: fixed;
     /* Ensures the element is fixed relative to the viewport */
@@ -7,7 +7,7 @@
     bottom: 0;
     left: 0;
     /* Makes the element cover the entire screen */
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
     /* Black background with 30% opacity */
     /* backdrop-filter: blur(6px); */
     /* Applies a small blur to the background */
@@ -16,7 +16,7 @@
 
 }
 
-.box_1st {
+.box_2st {
 
     width: 650px;
     height: 700px;
@@ -66,7 +66,7 @@
     opacity: 5%;
 }
 
-.Ellipse1 {
+.Ellipse1___2 {
     position: relative;
     width: 24px;
     height: 24px;
@@ -80,17 +80,17 @@
     font-weight: bold;
 }
 
-.Line1_2{
+.Line1_2 {
     position: relative;
     width: 150px;
     height: 0px;
     left: 129px;
     top: -80px;
-    opacity: ;
+    /* opacity: ; */
     border: 1px solid #000000;
 }
 
-.Ellipse_2 {
+.Ellipse___2 {
     position: relative;
     width: 24px;
     height: 24px;
@@ -104,7 +104,7 @@
     font-weight: bold;
 }
 
-.Line2 {
+.Line___2 {
     position: relative;
     width: 150px;
     height: 0px;
@@ -114,7 +114,7 @@
     border: 1px solid #000000;
 }
 
-.Ellipse3 {
+.Ellipse_____3 {
     position: relative;
     width: 24px;
     height: 24px;
@@ -129,7 +129,7 @@
     font-weight: bold;
 }
 
-.allpyline {
+.allpyline____2 {
     position: relative;
     display: grid;
     grid-gap: 1rem;
@@ -286,10 +286,10 @@
     position: relative;
     top: -146px;
     left: 20px;
-  
-  }
-  
-  .selectable-button {
+
+}
+
+.selectable-button {
     background-color: #e0e0e0;
     border: none;
     border-radius: 12px;
@@ -299,30 +299,30 @@
     transition: background-color 0.3s ease;
     width: 104px;
     height: 50px;
-  }
-  
-  .selectable-button.selected {
+}
+
+.selectable-button.selected {
     background-color: #333333;
     color: white;
-  }
-  .F_Bu_2
+}
 
-{display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 17px 30px;
-gap: 10px;
+.F_Bu_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 30px;
+    gap: 10px;
 
-position: absolute;
-width: 605px;
-height: 75px;
-left: calc(50% - 605px/2 - 0.5px);
-top: 677px;
-color: white;
-background: #1F1F1F;
-border-radius: 15px;
-font-size: 25px;
-font-weight: bold;
-top: 594px;
+    position: absolute;
+    width: 605px;
+    height: 75px;
+    left: calc(50% - 605px/2 - 0.5px);
+    top: 677px;
+    color: white;
+    background: #1F1F1F;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    top: 594px;
 }

@@ -1,0 +1,151 @@
+.Review {
+    margin-top: 100px;
+    height: 850px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas:
+        'top top top'
+        'imggg sss sss';
+        margin-right: 0px;
+}
+
+.top {
+    grid-area: top;
+    background-color: skyblue;
+    margin-left: 63px;
+    height: 124px;
+    padding-top: 81px;
+
+}
+
+.RRR {
+    /* Reviews */
+    grid-area: ff;
+    width: 84px;
+    height: 30px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+    opacity: 0.4;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* padding-top: 81px; */
+}
+
+.Fromy {
+    margin-top: 16px;
+    width: 358px;
+    height: 78px;
+    grid-area: ff2;
+
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 78px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.9;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: cadetblue;
+}
+
+.BBB {
+    grid-area: Button;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 17px 30px; */
+    gap: 10px;
+
+    width: 186px;
+    height: 60px;
+
+    background: #1F1F1F;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+    left: 85%;
+    top: -130px;
+    position: relative;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+.imggggg{
+    grid-area: imggg;
+    width: 435px;
+  height: 335px;
+  margin-left: 63px;
+  border: 1px solid;
+  
+}
+.IIIMMM{
+    width: 435px;
+  height: 335px;
+}
+.slider{
+    grid-area: sss;
+    background-color: blueviolet;
+    width: 961px;
+    height: 389px;
+    margin-left: 55px;
+}
+
+
+/* ------Review----------------------------------------------------------------- */
+.data{
+    width: 500px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-top: 42px;
+}
+.logo{
+    width: 45px;
+    height: 19.64px;
+    position: relative;
+    left: 88%;
+}
+.name{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 22px;
+    margin-bottom: 15px;
+}
+.star{
+    margin-left: 22px;
+
+}
+.feed{margin-top: 15px;
+    margin-left: 22px;
+    width: 411px;
+    margin-right: 24px;
+}

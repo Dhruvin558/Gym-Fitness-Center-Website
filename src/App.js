@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Trainers from './Components/Trainers/Trainers.js';
 import About from './Components/About.js';
 import Plan from './Components/Plan_Join/Plan.js';
+import Review from './Components/Review/Review.js';
 
 
 
@@ -16,14 +17,13 @@ function App() {
 
   <Navbar1 />
   <Routes> 
-  {/* <Route path='/' element={<Navbar1/>} /> */}
   <Route path='/' element={<Home />} />
-  {/* <Route path='/' element={<Row />} /> */}
   </Routes>
   <Row />
   <About />
   <Trainers />
   <Plan />
+  <Review />
   </Router>
   
    </>

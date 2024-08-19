@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+
 }
 
 code {
@@ -19,6 +21,6 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 /* For Firefox */
-input[type=number] {
+/* input[type=number] {
   -moz-appearance: textfield;
-}
+} */

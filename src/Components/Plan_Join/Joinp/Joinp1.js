@@ -69,7 +69,7 @@ const Joinp1=({onClose})=> {
           setNext(true)
         }} >Next</button>
       </div>
-      {next && <Joinp2  />}
+      {next && <Joinp2 onClose={()=>{setNext(false)}} />}
     </div>
   );
 }

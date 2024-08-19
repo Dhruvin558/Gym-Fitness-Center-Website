@@ -5,6 +5,8 @@
     height: 71px;
     /* display: contents; */
     display: grid;
+
+
     grid-template-columns: 34fr 69fr 15fr;}
 
 .navpic {

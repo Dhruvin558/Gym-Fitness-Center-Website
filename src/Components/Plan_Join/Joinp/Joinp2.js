@@ -4,8 +4,8 @@ import { GiBiceps } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import Joinp3 from "./Joinp3";
 
-const Joinp2 = ({ onClose  }) =>{
-  const [lastp, setLast] = useState(false)
+const Joinp2 = ({ onClose }) => {
+  const [lastp, setLast] = useState(false);
   const [selectedButtons, setSelectedButtons] = useState([]);
 
   const handleClick = (buttonId) => {
@@ -23,19 +23,19 @@ const Joinp2 = ({ onClose  }) =>{
         <GiBiceps size={"49px"} className="bse" />
         <p className="fist_line">
           Join us Now!!
-          <button className="co" onClick={<Home />}>
+          <button className="co" onClick={onClose}>
             <IoCloseSharp size={"29px"} />
           </button>
         </p>
         <p>
           <p className="line"></p>
-          <p className="Ellipse1">1</p>
+          <p className="Ellipse1___2">1</p>
           <p className="Line1_2"></p>
-          <p className="Ellipse_2">2</p>
-          <p className="Line2"></p>
-          <p className="Ellipse3">3</p>
+          <p className="Ellipse___2">2</p>
+          <p className="Line___2"></p>
+          <p className="Ellipse_____3">3</p>
         </p>
-        <p className="allpyline">
+        <p className="allpyline____2">
           <p id="L1"> Basic Detail</p>
           <p id="L2"> Membership Detail</p>
           <p id="L3"> Payment</p>
@@ -63,16 +63,18 @@ const Joinp2 = ({ onClose  }) =>{
             </button>
           ))}
         </p>
-        <button className="F_Bu_2" 
-        onClick={()=>{
-          setLast(true)
-        }}
-        >Next</button>
+        <button
+          className="F_Bu_2"
+          onClick={(e) => {
+            setLast(true);
+          }}
+        >
+          Next
+        </button>
       </div>
-      {lastp && <Joinp3 />
-      }
+      {lastp && <Joinp3 onClose={()=>{setLast(false)}} />}
     </div>
   );
-}
+};
 
 export default Joinp2;

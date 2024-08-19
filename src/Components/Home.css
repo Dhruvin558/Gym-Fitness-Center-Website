@@ -1,5 +1,6 @@
 .home {
 
+
   display: grid;
   grid-gap: 1rem;
   grid-template-areas:
@@ -87,7 +88,7 @@
   z-index: 1;
   top: -83px;
   left: 147px;
-  width: 100vw;
+  width: 484px;
   /* width: 472px; */
   height: 729px;
 }

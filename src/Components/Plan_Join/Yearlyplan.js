@@ -9,9 +9,9 @@ function Yearlyplan() {
 
   useEffect(() => {
     if (popup) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflowY = 'hidden';
     } else {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflowY = 'auto'; // Reset to auto or initial state when popup is closed
     }
   }, [popup]);
 

@@ -1,4 +1,4 @@
-.JoinP2 {
+.JoinP {
 z-index: 100;
 overflow: hidden;
     position: fixed;
@@ -17,7 +17,7 @@ overflow: hidden;
 
 }
 
-.box_2st {
+.box_1st {
 
     width: 650px;
     height: 700px;
