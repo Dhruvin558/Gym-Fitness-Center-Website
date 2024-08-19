@@ -3,6 +3,7 @@ import "./Plan.css";
 import Monthplan from "./Monthplan";
 import Yearlyplan from "./Yearlyplan";
 import Joinp1 from "./Joinp/Joinp1";
+import Joinp2 from './Joinp/Joinp2'
 
 
 
@@ -39,7 +40,7 @@ function Plan() {
       </p>
       {visible === "Monthplan" && <Monthplan />}
       {visible === "Yearlyplan" && <Yearlyplan />}
-      
+      <Joinp2 />
     </div>
   );
 }
