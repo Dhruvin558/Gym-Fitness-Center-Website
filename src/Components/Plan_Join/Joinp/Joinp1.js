@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Joinp1.css";
 import { GiBiceps } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { useDropzone } from "react-dropzone";
+import Joinp2 from "./Joinp2";
 
-function Joinp1({onClose}) {
+const Joinp1=({onClose})=> {
+  const [next, setNext] = useState(false)
   const { getRootProps, getInputProps } = useDropzone({
     onDrop: (acceptedFiles) => {
       console.log(acceptedFiles);
@@ -63,8 +65,11 @@ function Joinp1({onClose}) {
             className="Rectangle8"
           />
         </p>
-        <button className="F_Bu">Next</button>
+        <button className="F_Bu" onClick={(e)=>{
+          setNext(true)
+        }} >Next</button>
       </div>
+      {next && <Joinp2  />}
     </div>
   );
 }

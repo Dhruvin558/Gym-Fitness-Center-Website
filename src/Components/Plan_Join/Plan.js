@@ -40,7 +40,7 @@ function Plan() {
       </p>
       {visible === "Monthplan" && <Monthplan />}
       {visible === "Yearlyplan" && <Yearlyplan />}
-      <Joinp2 />
+      {/* <Joinp2 /> */}
     </div>
   );
 }

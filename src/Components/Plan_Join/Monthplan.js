@@ -3,7 +3,7 @@ import "./Monthplan.css";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 import Joinp1 from "./Joinp/Joinp1";
 
-function Monthplan() {
+const Monthplan =()=> {
   const [popup, setPopup] = useState(false);
   
   useEffect(() => {

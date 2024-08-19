@@ -1,4 +1,4 @@
-.JoinP {
+.F_P_ {
 
     position: fixed;
     /* Ensures the element is fixed relative to the viewport */
@@ -9,7 +9,7 @@
     /* Makes the element cover the entire screen */
     background-color: rgba(0, 0, 0, 0.3);
     /* Black background with 30% opacity */
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
     /* Applies a small blur to the background */
     display: grid;
     justify-content: center;
