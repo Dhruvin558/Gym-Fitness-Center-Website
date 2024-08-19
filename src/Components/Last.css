@@ -1,9 +1,212 @@
-.LLLast{
+.LLLast {
+    /* padding-top: 250px; */
+
     height: 850px;
 }
-.bgtext{
+
+.bgtext {
     width: 1550px;
     height: 425px;
-    background-image: url("G:\React\project\public\image\Rectangle 45.png");
-    color: aliceblue;
+    background-image: url("G:\React\project\public\image\Rectangle 45.svg");
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.bg__text {
+    margin-top: 121px;
+    width: 722px;
+    height: 184px;
+    /* border: 2px solid white; */
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.callme {
+    /* Call us Today */
+    margin-bottom: 0px;
+
+
+
+
+    margin-top: 0px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    /* letter-spacing: 0.01em; */
+
+    color: #FFFFFF;
+
+    opacity: 0.87;
+
+
+}
+
+.Number {
+    font-size: 63px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 0px;
+
+
+
+}
+
+.text {
+    margin-top: -42px;
+    text-align: center;
+
+}
+
+.last_FFF {
+    width: 919px;
+    height: 192px;
+    /* border: 3px solid red; */
+    margin-top: 67px;
+    margin-left: 63px;
+    margin-bottom: 168px;
+    display: grid;
+    grid-template-areas:
+        'first mid last';
+
+}
+
+.Last_logo {
+    grid-area: first;
+    width: 324px;
+    height: 154px;
+    /* border: 2px solid; */
+}
+
+.img_logo_last {
+    width: 115px;
+    height: 50px;
+}
+
+.Last_F_text {
+    margin-top: 0px;
+    font-size: 18px;
+    opacity: 40%;
+
+}
+
+.midd {
+    grid-area: mid;
+    width: 70px;
+    height: 190px;
+    /* border: 2px solid; */
+    text-decoration: none;
+    margin-right: 68px;
+    margin-left: 52px;
+}
+
+.menu {
+
+
+
+    font-weight: 600;
+    font-size: 24px;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.home_________L {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    opacity: 40%;
+
+
+}
+
+.about_________L {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 40%;
+
+}
+
+.Trainers___text_________L {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 40%;
+
+}
+
+.plans_________L {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 40%;
+}
+
+.reviews_________L {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 40%;
+
+}
+
+
+
+
+
+.lastttt {
+    width: 153px;
+    height: 181px;
+    /* border: 2px solid; */
+    grid-area: last;
+    margin-top: 0px;
+    margin-right: -134px;
+}
+
+.social___L {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.LinkedIn {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-style: 18px;
+    opacity: 43%;
+
+}
+
+.Facebook {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-style: 18px;
+    opacity: 43%;
+
+}
+
+.Instagram {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-style: 18px;
+    opacity: 43%;
+
+}
+
+.Github {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-style: 18px;
+    opacity: 43%;
+
 }
