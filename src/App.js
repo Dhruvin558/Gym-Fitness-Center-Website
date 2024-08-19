@@ -7,6 +7,7 @@ import Trainers from './Components/Trainers/Trainers.js';
 import About from './Components/About.js';
 import Plan from './Components/Plan_Join/Plan.js';
 import Review from './Components/Review/Review.js';
+import Last from './Components/Last.js';
 
 
 
@@ -24,6 +25,7 @@ function App() {
   <Trainers />
   <Plan />
   <Review />
+  <Last />
   </Router>
   
    </>

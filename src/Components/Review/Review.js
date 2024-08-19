@@ -16,7 +16,7 @@ const Review = () => {
         <img src='/image/Group 51.png' alt='img' className='IIIMMM'/>
       </div>
       <div className='slider'>
-        <Data />
+        {/* <Data /> */}
       </div>
     </div>
   )
