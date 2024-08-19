@@ -12,6 +12,9 @@ const Joinp3 = () => {
         <p className='THX'>
         Thank you !!
         </p>
+        {/* <video> */}
+        <img src="/image/Animation - 1724083116635.gif" alt="Animation" className='gif' />
+        {/* </video> */}
         <button className='B_P_L_'><a href='/' className='link'>Back To Home</a></button>
     </div>
 </div>  )

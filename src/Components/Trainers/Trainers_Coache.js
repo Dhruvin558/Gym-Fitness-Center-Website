@@ -10,7 +10,8 @@ function Trainers_Coache() {
       <div className="coache_item">
         <img src="image/Rectangle 35.png" className="img_2" />
       </div>
-      <div id="text_1" className="text">
+      <div id="text_1" className="text___TT">
+        <p className="p">Are you looking for a Mentor?</p>
         <h1 className="hading_Coache">COACHES</h1>
         <p className="test_coach">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,7 +23,6 @@ function Trainers_Coache() {
           <br />
           commodo consequat.
         </p>
-        <p className="p">Are you looking for a Mentor?</p>
         <button className="b_coache">Explore More</button>
       </div>
     </div>

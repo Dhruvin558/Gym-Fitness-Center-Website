@@ -1,67 +1,78 @@
 .JoinP3 {
 
-    position: fixed;
-    /* Ensures the element is fixed relative to the viewport */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* Makes the element cover the entire screen */
-    background-color: rgba(0, 0, 0, 0.3);
-    /* Black background with 30% opacity */
-    /* backdrop-filter: blur(6px); */
-    /* Applies a small blur to the background */
-    display: grid;
-    justify-content: center;
+  position: fixed;
+  /* Ensures the element is fixed relative to the viewport */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Makes the element cover the entire screen */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Black background with 30% opacity */
+  /* backdrop-filter: blur(6px); */
+  /* Applies a small blur to the background */
+  display: grid;
+  justify-content: center;
 
 }
 
 .THX {
 
-width: 400px;
-height: 78px;
+  width: 400px;
+  height: 78px;
 
-font-family: 'Signika';
-font-style: normal;
-font-weight: 700;
-font-size: 63px;
-line-height: 78px;
-/* identical to box height */
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 78px;
+  /* identical to box height */
 
-color: #000000;
+  color: #000000;
 
-opacity: 0.9;
+  opacity: 0.9;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-position: relative;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
   top: 49px;
   left: 147px;
 }
-.B_P_L_ {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 17px 30px;
-    gap: 10px;
-    position: absolute;
-    width: 605px;
-    height: 75px;
-    left: calc(50% - 605px/2 - 0.5px);
-    background: #1F1F1F;
-    border-radius: 15px;
-    position: relative;
-    top: 385px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    
 
-  }
-  .link{
-    text-decoration: none;
-    color: white;
-  }
+.B_P_L_ {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 605px;
+  height: 75px;
+  left: calc(50% - 605px/2 - 0.5px);
+  background: #1F1F1F;
+  border-radius: 15px;
+  position: relative;
+  top: 98px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.gif {
+  /* border: 2px solid; */
+  justify-content: center;
+  padding-top: 44px;
+
+  margin-left: 209px;
+  width: 230px;
+}
