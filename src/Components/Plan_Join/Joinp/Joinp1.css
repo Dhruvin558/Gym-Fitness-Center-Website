@@ -327,7 +327,8 @@ overflow: hidden;
 }
 .F_Bu
 
-{display: flex;
+{
+    display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;

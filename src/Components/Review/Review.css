@@ -6,7 +6,7 @@
     grid-template-areas:
         'top top top'
         'imggg sss sss';
-        margin-right: 0px;
+    margin-right: 0px;
 }
 
 .top {
@@ -98,19 +98,22 @@
     font-weight: bold;
 
 }
-.imggggg{
+
+.imggggg {
     grid-area: imggg;
     width: 435px;
-  height: 335px;
-  margin-left: 63px;
-  border: 1px solid;
-  
+    height: 335px;
+    margin-left: 63px;
+    border: 1px solid;
+
 }
-.IIIMMM{
+
+.IIIMMM {
     width: 435px;
-  height: 335px;
+    height: 335px;
 }
-.slider{
+
+.slider {
     grid-area: sss;
     background-color: blueviolet;
     width: 961px;
@@ -120,32 +123,331 @@
 
 
 /* ------Review----------------------------------------------------------------- */
-.data{
+.data {
     width: 500px;
     height: 250px;
     border: 1px solid;
     border-radius: 30px;
     margin-top: 42px;
 }
-.logo{
+
+.logo {
     width: 45px;
     height: 19.64px;
     position: relative;
     left: 88%;
 }
-.name{
+
+.name {
     margin-top: 0px;
     font-size: 30px;
     font-weight: 500;
     margin-left: 22px;
     margin-bottom: 15px;
 }
-.star{
+
+.star {
     margin-left: 22px;
 
 }
-.feed{margin-top: 15px;
+
+.feed {
+    margin-top: 15px;
     margin-left: 22px;
     width: 411px;
     margin-right: 24px;
+}
+
+
+/* ---------popbox------------------------------------------- */
+.JoinP {
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    /* Ensures the element is fixed relative to the viewport */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Makes the element cover the entire screen */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Black background with 30% opacity */
+    backdrop-filter: blur(6px);
+    /* Applies a small blur to the background */
+    display: grid;
+    justify-content: center;
+
+}
+
+.box_Review {
+
+
+    width: 650px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.Feddback {
+    margin-bottom: 0px;
+    margin-top: 42px;
+    margin-left: 95px;
+}
+
+.feedlogo {
+    margin-bottom: 23px;
+    margin-top: -33px;
+    margin-left: 30px;
+}
+
+.Review_line {
+    margin-top: -4px;
+    margin-left: 18px;
+    width: 613px;
+    height: 0px;
+    left: calc(50% - 613px/2 - 0.5px);
+    top: 173.49px;
+
+    opacity: 0.05;
+    border: 1px solid #000000;
+
+}
+
+.justtttttttttt {
+    display: grid;
+}
+
+.hading_Review_p {
+    width: 526px;
+    height: 106px;
+    /* border: 2px solid red; */
+    justify-self: center;
+}
+
+.RR_PP_HH {
+    font-size: 39px;
+    font-weight: 600;
+    opacity: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.RR_PP_text {
+    font-size: 18px;
+    opacity: 30%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+.Emojis__ {
+    /* display: grid;
+    grid-template-areas:
+        'fefe sese tete fefe five'; */
+    grid-gap: 30px;
+    justify-self: center;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid yellow; */
+}
+
+.Emoji_Bu_1st {
+    margin-right: 30px;
+    width: 70px;
+    cursor: pointer;
+
+    height: 70px;
+    border-radius: 10px;
+    border-radius: 69px;
+    border: none;
+
+}
+
+.Emoji_Bu_1st:hover {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.Emoji_Bu_1st:hover .EMOJI_1 {
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+.EMOJI_1 {
+    width: 50px;
+    height: 50px;
+}
+
+.Emoji_Bu_2st {
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    border-radius: 69px;
+    border: none;
+}
+
+.Emoji_Bu_2st:hover {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.EMOJI_2 {
+    width: 50px;
+    height: 50px;
+}
+
+.Emoji_Bu_2st:hover .EMOJI_2 {
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+.Emoji_Bu_3st {
+    margin-right: 30px;
+    border: none;
+
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    border-radius: 69px;
+}
+
+.Emoji_Bu_3st:hover {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.EMOJI_3 {
+    width: 50px;
+    height: 50px;
+}
+
+.Emoji_Bu_3st:hover .EMOJI_3 {
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+.Emoji_Bu_4st {
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    border-radius: 69px;
+    border: none;
+
+}
+
+.Emoji_Bu_4st:hover {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.EMOJI_4 {
+    width: 50px;
+    height: 50px;
+}
+
+.Emoji_Bu_4st:hover .EMOJI_4 {
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+.Emoji_Bu_5st {
+    width: 70px;
+    border: none;
+    cursor: pointer;
+
+    height: 70px;
+    border-radius: 10px;
+    border-radius: 69px;
+}
+
+.Emoji_Bu_5st:hover {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.EMOJI_5 {
+    width: 50px;
+    height: 50px;
+}
+
+.Emoji_Bu_5st:hover .EMOJI_5 {
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+
+.text_box_feedback {
+    justify-self: center;
+    width: 550px;
+    height: 197px;
+    border-radius: 20px
+}
+
+.Fffed_to_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 605px;
+    height: 75px;
+    left: calc(50% - 605px/2 - 0.5px);
+    top: 677px;
+    color: white;
+    background: #1F1F1F;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    top: 594px;
+    cursor: pointer;
+}
+
+.SubmitNow {
+    text-decoration: none;
+    color: white;
 }
