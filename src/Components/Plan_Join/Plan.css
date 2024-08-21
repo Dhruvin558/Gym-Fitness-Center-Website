@@ -4,12 +4,12 @@
     background-color: rgb(255, 255, 255);
     /* display: grid; */
 
-
+    font-family: Signika;
 }
 
 .item_Plan {
     /* border: 2px solid; */
-margin-left: 60px;
+margin-left: 60px;font-family: Signika;
 margin-bottom: -13px;
 }
 

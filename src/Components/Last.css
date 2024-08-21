@@ -1,10 +1,12 @@
 .LLLast {
     /* padding-top: 250px; */
-
     height: 850px;
 }
 
 .bgtext {
+    font-family: Signika;
+    font-family: Signika;
+
     width: 1550px;
     height: 425px;
     background-image: url("G:\React\project\public\image\Rectangle 45.svg");
@@ -77,6 +79,7 @@
     display: grid;
     grid-template-areas:
         'first mid last';
+        font-family: Signika;
 
 }
 

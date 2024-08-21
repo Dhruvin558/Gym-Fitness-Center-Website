@@ -1,6 +1,7 @@
 .Monthplan {
     display: grid;
     grid-gap: 1rem;
+    font-family: Signika;
     /* margin-top: 100px; */
     grid-template-areas:
         'first second third'

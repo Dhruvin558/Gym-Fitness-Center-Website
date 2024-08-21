@@ -24,7 +24,7 @@ body {
 }
 
 #one {
-
+  font-family: Signika;
   grid-area: one;
   margin-left: 98px;
   margin-top: 55px;
@@ -32,20 +32,20 @@ body {
 }
 
 #two {
-
+  font-family: Signika;
   grid-area: tow;
   margin-top: 55px;
 }
 
 #three {
-
+  font-family: Signika;
   grid-area: three;
   margin-top: 55px;
 }
 
 #four {
   grid-area: four;
-  
+  font-family: Signika;
   margin-top: 55px;
 }
 

@@ -1,7 +1,7 @@
 .Review {
     margin-top: 100px;
     height: 850px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: grid;
     grid-template-areas:
         'top top top'
@@ -11,7 +11,7 @@
 
 .top {
     grid-area: top;
-    background-color: skyblue;
+    /* background-color: skyblue; */
     margin-left: 63px;
     height: 124px;
     padding-top: 81px;
@@ -71,7 +71,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .BBB {
@@ -104,7 +104,7 @@
     width: 435px;
     height: 335px;
     margin-left: 63px;
-    border: 1px solid;
+    /* border: 1px solid; */
 
 }
 
@@ -115,7 +115,7 @@
 
 .slider {
     grid-area: sss;
-    background-color: blueviolet;
+    /* background-color: blueviolet;     */
     width: 961px;
     height: 389px;
     margin-left: 55px;
@@ -451,3 +451,11 @@
     text-decoration: none;
     color: white;
 }
+.slick-slide {
+    padding: 0 10px; /* 20px total between slides (10px on each side) */
+  }
+  
+  .slick-list {
+    margin: 0 -10px; /* Adjusts the list's margins to ensure the slider fits within the container */
+  }
+  

@@ -35,15 +35,18 @@
 
 
 .home_p1 {
-  font-family: Helvetica;
+  font-family: Signika;
   font-weight: 700;
   font-size: 64px;
   opacity: 90%;
   position: relative;
   top: 80px;
+
 }
 
 .home_p2 {
+  font-family: Signika;
+
   font-weight: 300;
   font-size: 25px;
   opacity: 40%;
