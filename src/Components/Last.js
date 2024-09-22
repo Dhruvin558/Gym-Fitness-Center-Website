@@ -29,7 +29,7 @@ const Last = () => {
         <div className="midd">
           <p className="menu">Menu</p>
           <p className="home_________L">
-            <a href="#">Homa</a>
+            <a href="#">Home</a>
           </p>
           <p className="about_________L">
             <a href="#">About</a>
