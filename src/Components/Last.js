@@ -29,19 +29,19 @@ const Last = () => {
         <div className="midd">
           <p className="menu">Menu</p>
           <p className="home_________L">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </p>
           <p className="about_________L">
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </p>
           <p className="Trainers___text_________L">
-            <a href="#">Trainers</a>
+            <a href="#Trainers">Trainers</a>
           </p>
           <p className="plans_________L">
-            <a href="#">Plans</a>
+            <a href="#Plans">Plans</a>
           </p>
           <p className="reviews_________L">
-            <a href="#">Reviews</a>
+            <a href="#Reviews">Reviews</a>
           </p>
           {/* __________________
 <a href="#" className="home_________L">Homa</a><br/>
