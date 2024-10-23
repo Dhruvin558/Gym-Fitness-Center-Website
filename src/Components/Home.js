@@ -11,7 +11,7 @@ import About from "./About";
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <div id="home1" className="Home_All">
           <p className="home_p1">
             ELEVATE YOUR <br />

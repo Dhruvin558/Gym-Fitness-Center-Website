@@ -17,7 +17,7 @@ const Review = () => {
     [feedback]
   );
   return (
-    <div className="Review">
+    <div className="Review" id="review">
       <div className="top">
         <p className="RRR">Reviews</p>
         <p className="Fromy">From you</p>

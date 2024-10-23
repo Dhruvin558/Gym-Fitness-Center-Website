@@ -8,7 +8,7 @@ import { TbClockCheck } from "react-icons/tb";
 function About() {
   return (
     <>
-      <div className="About">
+      <div className="About" id="about" >
         <up>
           <l className="About_hading">Why Choose Us</l>
           <p className="About_text">

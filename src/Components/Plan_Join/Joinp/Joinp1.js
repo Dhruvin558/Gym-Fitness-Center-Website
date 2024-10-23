@@ -13,7 +13,7 @@ const Joinp1=({onClose})=> {
     },
   });
   return (
-    <div className="JoinP">
+    <div className="JoinP" id="plans">
       <div className="box_1st">
         <GiBiceps size={"49px"} className="bse" />
         <p className="fist_line">

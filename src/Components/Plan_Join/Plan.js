@@ -11,7 +11,7 @@ import Joinp3 from "./Joinp/Joinp3";
 function Plan() {
   const [visible, setVisible] = useState("Monthplan");
   return (
-    <div className="Plan">
+    <div className="Plan" id="plans">
       <p className="item_Plan" id="first">
         Pricing plan
       </p>

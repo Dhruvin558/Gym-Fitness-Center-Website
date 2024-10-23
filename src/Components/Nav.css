@@ -1,9 +1,11 @@
 .navbar {
     z-index: 5;
+    position: fixed;
     width: 100vw;
     /* border: 3px solid yellow; */
     height: 71px;
     /* display: contents; */
+    background: #a2a2a2;
     display: grid;
 
 
@@ -92,6 +94,7 @@
     font-weight: 600;
     position: relative;
     top: 13px;    border: black;
+    cursor: pointer;
 }
 .B_Join:hover{
     background-color: rgb(20, 19, 19);

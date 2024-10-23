@@ -6,7 +6,7 @@ import Trainers_Coache from "./Trainers_Coache";
 function Trainers() {
   return (
     <>
-      <div className="Trainer">
+      <div className="Trainer" id="trainers">
         <p className="Hading">
           <h1 className="Hading_text">Meet Our Trainers</h1>
 
